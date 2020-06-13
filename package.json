@@ -1,0 +1,37 @@
+{
+  "name": "done-with-it-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "engines": {
+    "node": "12.6.x"
+  },
+  "keywords": [],
+  "author": "Alfurquan Zahedi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "expo-server-sdk": "^3.5.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.18",
+    "multer": "^1.4.2",
+    "sharp": "^0.25.2",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
