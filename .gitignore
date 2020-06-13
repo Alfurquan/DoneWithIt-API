@@ -1,3 +1,4 @@
 node_modules/
 .env
 Requirements.txt
+.DS_Store
