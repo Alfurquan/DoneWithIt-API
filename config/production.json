@@ -1,3 +1,4 @@
 {
-  "assetsBaseUrl": "https://moshbucket1.s3.us-east-2.amazonaws.com/"
+  "assetsBaseUrl": "http://ec2-13-58-90-218.us-east-2.compute.amazonaws.com:9000/assets/",
+  "port": 9000
 }

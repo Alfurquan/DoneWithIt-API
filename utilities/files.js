@@ -1,14 +1,25 @@
 const fs = require("fs");
+const path = require("path");
 
 exports.removeImage = (imageName) => {
-  fs.unlinkSync("public" + getFullImagePath(imageName));
-  fs.unlinkSync("public" + getThumbnailImagePath(imageName));
+  fs.unlinkSync(getFullImagePath(imageName));
+  fs.unlinkSync(getThumbnailImagePath(imageName));
 };
 
 const getFullImagePath = (imageName) => {
-  return "\\assets\\profilePictures\\" + imageName + "_full.jpg";
+  return path.join(
+    "public",
+    "assets",
+    "profilePictures",
+    imageName + "_full.jpg"
+  );
 };
 
 const getThumbnailImagePath = (imageName) => {
-  return "\\assets\\profilePictures\\" + imageName + "_thumb.jpg";
+  return path.join(
+    "public",
+    "assets",
+    "profilePictures",
+    imageName + "_thumb.jpg"
+  );
 };
